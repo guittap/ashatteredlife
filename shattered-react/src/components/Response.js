@@ -7,12 +7,18 @@ export default class response extends Component {
     return (
       <div className="main">
         <Typography variant="h6">the man</Typography>
-        <div className="buttons">
-          <Button variant="outlined" color="primary">
-            Action 1
+        <div>
+          <Button
+            variant="outlined"
+            color="primary"
+            onClick={() => {
+              console.log("please work");
+            }}
+          >
+            walk
           </Button>
           <Button variant="outlined" color="primary">
-            Action 2
+            stand
           </Button>
         </div>
       </div>
