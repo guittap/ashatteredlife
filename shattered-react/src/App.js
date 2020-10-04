@@ -17,7 +17,7 @@ function App() {
   return (
     <MuiThemeProvider theme={theme}>
       <Grid container spacing={3}>
-        <Grid item sm={3} id="message">
+        <Grid item sm={3}>
           <Message />
         </Grid>
         <Grid item sm={6}>
